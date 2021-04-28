@@ -10,7 +10,7 @@ const reducer = (state = initialState, action) => {
       newState.age += action.value;
       break;
 
-    case "AGE_DOWN":
+    case "AGE_DOWN_ASYNC":
       newState.age -= action.value;
       break;
   }
